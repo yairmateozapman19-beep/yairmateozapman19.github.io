@@ -1,0 +1,23 @@
+---
+/**
+ * 可选接入 Google Analytics (GA4)。
+ * 通过环境变量 PUBLIC_GA_MEASUREMENT_ID 启用，不设置则不会注入任何脚本。
+ *
+ * 在 GA4 后台「数据流」→ 网站 → 测量 ID 获取，如 G-XXXXXXXXXX
+ */
+
+const gaId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID as string | undefined;
+const useGa = Boolean(gaId?.trim());
+---
+
+{useGa && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+    <script is:inline define:vars={{ gaId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', gaId);
+    </script>
+  </>
+)}

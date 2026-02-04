@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+
+# Build output (Astro static export)
+dist
+
+# Astro
+.astro/
+
+# Vite (Astro 使用 Vite 构建，可能产生缓存)
+.vite/
+
+# Environment：仅保留 .env.example 作模板，.env 不提交
+.env
+.env.local
+.env.*.local
+
+# Cloudflare Wrangler
+.wrangler/
+.mf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor backup / temp
+*~
+*.swp
+*.swo
+*.bak
+
+# Misc
+.cache
+*.tsbuildinfo
+.turbo
