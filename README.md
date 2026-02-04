@@ -1,6 +1,12 @@
 # astro-i18n-starter-pro
 
+<p align="right"><strong>中文</strong> | <a href="./README.en.md">English</a> </p>
+
 基于 [astro-i18n-starter](https://github.com/naodeng/astro-i18n-starter) 改造的 **Astro 多语言博客模板**，站点与作者等关键信息通过环境变量配置，便于多环境部署与复用到不同站点。
+
+## 示例站点
+
+- [inaodeng.com](https://inaodeng.com)
 
 ## 特性
 
@@ -81,7 +87,7 @@ categories: ["分类"]  # 可选
 - **Cloudflare**：配置 `CLOUDFLARE_API_TOKEN` 等后，使用仓库内 `.github/workflows/deploy-cloudflare.yml` 或本地 `npm run deploy`（需 `wrangler` 已登录）。
 - **GitHub Pages**：使用 `.github/workflows/gh-pages.yml`，推送 `main` 即可发布到 `gh-pages` 分支。
 
-构建时请确保 CI 环境中能读取到 `PUBLIC_SITE_URL` 等变量（在 GitHub Actions 的 “Settings → Secrets and variables → Actions” 中配置，或在 workflow 中注入）。
+构建时请确保 CI 环境中能读取到 `PUBLIC_SITE_URL` 等变量（在 GitHub Actions 的“Settings → Secrets and variables → Actions”中配置，或在 workflow 中注入）。
 
 ## 许可
 
