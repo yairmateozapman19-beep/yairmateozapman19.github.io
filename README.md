@@ -2,7 +2,7 @@
 
 <p align="right"><strong>中文</strong> | <a href="./README.en.md">English</a> </p>
 
-基于 [astro-i18n-starter](https://github.com/naodeng/astro-i18n-starter) 改造的 **Astro 多语言博客模板**，站点与作者等关键信息通过环境变量配置，便于多环境部署与复用到不同站点。
+基于 [astro-i18n-starter](https://github.com/psephopaiktes/astro-i18n-starter) 改造的 **Astro 多语言博客模板**，站点与作者等关键信息通过环境变量配置，便于多环境部署与复用到不同站点。
 
 astro主题站点地址：https://portal.astro.build/themes/astro-i18n-starter-pro/
 
