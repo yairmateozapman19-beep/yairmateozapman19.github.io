@@ -2,7 +2,7 @@
 
 <p align="right"><a href="./README.md">中文</a> | <strong>English</strong></p>
 
-An **Astro multi-language blog template** forked from [astro-i18n-starter](https://github.com/naodeng/astro-i18n-starter). Site URL, title, author, and other key info are configured via environment variables for easy multi-environment deployment and reuse across different sites.
+An **Astro multi-language blog template** forked from [astro-i18n-starter](https://github.com/psephopaiktes/astro-i18n-starter). Site URL, title, author, and other key info are configured via environment variables for easy multi-environment deployment and reuse across different sites.
 
 ## Demo Site
 
