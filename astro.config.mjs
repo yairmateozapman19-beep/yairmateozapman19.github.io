@@ -6,7 +6,7 @@ import { loadEnv } from "vite";
 import { DEFAULT_LOCALE_SETTING, LOCALES_SETTING } from "./src/locales";
 
 const env = loadEnv(process.env.MODE ?? "production", process.cwd(), "");
-const siteUrl = env.PUBLIC_SITE_URL ?? "https://example.com";
+const siteUrl = env.PUBLIC_SITE_URL ?? "https://yairmateozapman19.github.io";
 let base = env.PUBLIC_BASE_PATH ?? "";
 
 // 确保 base 路径格式正确：以 / 开头，以 / 结尾（如果不为空）
